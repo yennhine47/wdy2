@@ -1,0 +1,34 @@
+body {
+    font-family: Patrick Hand, cursive;
+    background-image: linear-gradient(rgb(252, 223, 237),rgb(198, 228, 255));
+}
+h1{
+    font-size: 80px;
+    background-image: linear-gradient(rgb(240, 240, 163),pink);
+    color: rgb(252, 110, 110);
+    border: 4px solid rgb(253, 194, 214);
+    border-radius:30px ;
+    font-family: Montserrat;
+}
+li{
+    font-size: 50px;
+    color: rgb(192, 124, 208);
+}
+
+.link-header{
+    font-size: 40px;
+    color: rgb(157, 98, 157);
+    text-decoration:underline;
+}
+h1:hover{
+    transform: scale(2);
+    transition: 3s ease-in;
+}
+div{
+    background-image: linear-gradient(rgb(152, 240, 255),rgb(231, 172, 246));
+    border: 9px dotted blanchedalmond;
+    border-radius: 30px;
+}
+div:hover{
+    background-image: linear-gradient(aliceblue, pink);
+}
